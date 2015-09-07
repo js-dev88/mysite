@@ -13,20 +13,20 @@
  *
  * @package WordPress
  */
-define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
-define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']);
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/jumelage/Projet_GitHub/mysite/wordpress');
+define('WP_HOME',    'http://' . $_SERVER['SERVER_NAME']. '/jumelage/Projet_GitHub/mysite/wordpress');
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/jumelage/Projet_GitHub/mysite/wp-content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/jumelage/Projet_GitHub/mysite/wp-content');
 define('WP_DEFAULT_THEME', 'twentyfifteen');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wptest');
+define('DB_NAME', 'cjm');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'appli_cjm');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'appli_cjm');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
